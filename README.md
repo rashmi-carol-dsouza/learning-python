@@ -1,3 +1,5 @@
+This documents records all my learnings and references of python during the 100DaysOfCode challenge
+
 ## Functions:
 
 # print() 
@@ -13,10 +15,10 @@ ex. print('Your number is ' + input('What is your number?'
 Returns interger value of input i.e. output the no of characters of the input
 Only works with strings
 
-#type()
+# type()
 To check the type of data in the parantheses
 
-#round()
+# round()
 To round of numbers
 If you want to round of the specific decimal places – use ‘,(No of digits for preferred rounding) – ex. (10/3,3)
 
@@ -73,6 +75,9 @@ If you want an integer use // instead of /
 # **
 Exponent / To raise a number to a certain power
 
+# %
+Modulo is used to get the remainder after divison of two numbers
+
 # Order of priority
 Parentheses
 Exponents
@@ -82,6 +87,45 @@ Addition – Subtraction
 
 To use mathematical operations on variables use = ex. /=, += , marks += 1
 
+# Comparison opertor
+
+  > greater than
+  >= greater than or equal to
+  < less than  
+  <= less that or equal to
+  == equal to
+  != not equal to
+
+## Control Flow:
+
+# if else
+example:
+if age > 25:
+   print('You can enter')
+else:
+   print('Ypu cannot enter')
+
+# Nested if/else
+example:
+if contition:
+   if another contition:
+     do this
+       else:
+     do this
+else:
+   do this
+
+# elif
+If there are more than two conditions, you can use elif statement:
+example:
+if condition:
+   print(message)
+elif:
+   print(Other message)
+else:
+print(Last message)   
+
+ 
 ## General tips:
 
 To concatonate strings add + between inputs
@@ -96,6 +140,14 @@ f-String – Use f and add other values inside curly braces
 ex. Print(f“ Your age is {age}”)
 
 To round of decimal places in float numbers:
-ex. float = 2.154327
+ex. float = 7.54651
     format_float = "{:.2f}".format(float)
     print(format_float)
+
+## Using other applications for learning
+
+Use replit for quick exercises
+Use Thony to see how the interpreter evaluates the code
+Use draw.io for drawing flowcharts or you can install extension in vs code https://www.diagrams.net/blog/embed-diagrams-vscode
+
+ 
