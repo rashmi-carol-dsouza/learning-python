@@ -14,6 +14,7 @@ ex. print('Your number is ' + input('What is your number?'
 # len() 
 Returns interger value of input i.e. output the no of characters of the input
 Only works with strings
+can be used to calculate no of inputs in a list
 
 # type()
 To check the type of data in the parantheses
@@ -123,10 +124,49 @@ if condition:
 elif:
    print(Other message)
 else:
-print(Last message)   
+print(Last message)
 
+You can add as many elif's as you may need.
+
+
+## Logical Operators
+
+# and
+both conditions have to be true for the entire line of code to be true
+
+# or
+for only one condition is required to be true
+
+# not
+revereses a condition
+
+## Modules
+
+# Random
+
+ex. import random
+a = random.randint(0,9)
+print (a)
+
+## Lists
+
+Always start wit [ and close wiht ] and items are sepereated with a comma
+ex age = [21,22,23]
+print(age[0])
+
+To pull out things 
+age[0] or age[-1]
+
+To change list data
+age[0] = 20
  
-## General tips:
+To add items to list
+age.append(24)
+
+more functions - https://docs.python.org/3/tutorial/datastructures.html
+
+A list can contain other lists within it
+ ## General tips:
 
 To concatonate strings add + between inputs
 
@@ -143,6 +183,13 @@ To round of decimal places in float numbers:
 ex. float = 7.54651
     format_float = "{:.2f}".format(float)
     print(format_float)
+
+To add int to value
+ex instead of age = age + 3 use age +=3
+
+# Split strings
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
 
 ## Using other applications for learning
 
