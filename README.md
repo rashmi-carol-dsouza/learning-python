@@ -2,6 +2,8 @@ This documents records all my learnings and references of python during the 100D
 
 ## Functions:
 
+## all functions @ https://docs.python.org/3/library/functions.html
+
 # print() 
 The print function outputs the content inputted into the paranthesis. The output is always a string value
 D'ont forget to add double quotes around the input
@@ -16,6 +18,14 @@ Returns interger value of input i.e. output the no of characters of the input
 Only works with strings
 can be used to calculate no of inputs in a list
 
+# sum()
+returns sum 
+can be used to calculate sum of a list
+
+# min()
+
+# max()
+
 # type()
 To check the type of data in the parantheses
 
@@ -23,6 +33,13 @@ To check the type of data in the parantheses
 To round of numbers
 If you want to round of the specific decimal places – use ‘,(No of digits for preferred rounding) – ex. (10/3,3)
 
+# count()
+sentence = 'Mary had a little lamb'
+sentence.count('a')
+
+# lower()
+s = "Kilometer"
+print(s.lower())
 
 ## Types of Data
 
@@ -128,6 +145,13 @@ print(Last message)
 
 You can add as many elif's as you may need.
 
+# For loop
+example
+furniture = ['Sofa','Bed','Chair']
+for stuff in furniture:
+  print(stuff)
+
+
 
 ## Logical Operators
 
@@ -148,6 +172,9 @@ ex. import random
 a = random.randint(0,9)
 print (a)
 
+random.random()
+a num between 0 to 1
+
 ## Lists
 
 Always start wit [ and close wiht ] and items are sepereated with a comma
@@ -166,6 +193,7 @@ age.append(24)
 more functions - https://docs.python.org/3/tutorial/datastructures.html
 
 A list can contain other lists within it
+
  ## General tips:
 
 To concatonate strings add + between inputs
