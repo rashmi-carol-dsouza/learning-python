@@ -151,7 +151,25 @@ furniture = ['Sofa','Bed','Chair']
 for stuff in furniture:
   print(stuff)
 
+for sum
+total_height = 0
+for height in student_heights:
+  total_height += height 
 
+for no of inputs
+total_users = 0
+for height in student_heights:
+  total_users += 1
+
+# while loop
+
+while something_is_true:
+   #do this
+   #then do this
+   #then do this
+
+loop will continue as long as underlying condition is true.
+   
 
 ## Logical Operators
 
@@ -168,6 +186,8 @@ revereses a condition
 
 # Random
 
+python documentation - https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+
 ex. import random
 a = random.randint(0,9)
 print (a)
@@ -177,7 +197,7 @@ a num between 0 to 1
 
 ## Lists
 
-Always start wit [ and close wiht ] and items are sepereated with a comma
+Always start with [ and close with ] and items are seperated with a comma
 ex age = [21,22,23]
 print(age[0])
 
@@ -224,5 +244,5 @@ names = names_string.split(", ")
 Use replit for quick exercises
 Use Thony to see how the interpreter evaluates the code
 Use draw.io for drawing flowcharts or you can install extension in vs code https://www.diagrams.net/blog/embed-diagrams-vscode
-
+for artwork - https://ascii.co.uk/art
  
