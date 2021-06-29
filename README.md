@@ -33,6 +33,10 @@ To check the type of data in the parantheses
 To round of numbers
 If you want to round of the specific decimal places – use ‘,(No of digits for preferred rounding) – ex. (10/3,3)
 
+# to round up
+import math
+a_r = math.ceil(a)
+
 # count()
 sentence = 'Mary had a little lamb'
 sentence.count('a')
@@ -161,6 +165,8 @@ total_users = 0
 for height in student_heights:
   total_users += 1
 
+resouce - https://developers.google.com/edu/python/lists#for-and-in
+
 # while loop
 
 while something_is_true:
@@ -195,6 +201,12 @@ print (a)
 random.random()
 a num between 0 to 1
 
+random.choice(list)
+to pick randomly from a list
+
+random.shuffle(list)
+to shuffle list items
+
 ## Lists
 
 Always start with [ and close with ] and items are seperated with a comma
@@ -213,6 +225,52 @@ age.append(24)
 more functions - https://docs.python.org/3/tutorial/datastructures.html
 
 A list can contain other lists within it
+
+## Dictionary
+
+example - 
+
+programming_dictionary = {"Bug": "An error in a program that prevents the program from running as expected.", "Function": "A piece of code that you can easily call over and over again."}
+
+bug is the key and the definition is the value 
+ensure the "" for string values to avoid errors
+
+Formating for more than one enteries -
+
+programming_dictionary = {
+   "Bug": "An error in a program that prevents the program from running as expected.", 
+   "Function": "A piece of code that you can easily call over and over again."
+   }
+
+To retrive value - 
+print(programming_dictionary["Bug"])
+
+expect errors in case of typos
+
+To add new entries:
+programming_dictionary["New_Entry"] = "Definition/Value"
+
+To see all entries:
+print(programming_dictionary)
+
+To wipe a dictionary:
+programming_dictionary = {}
+
+To edit entires:
+programming_dictionary["Entry"] = "New entry"
+
+To loop thru
+for thing in programming_dictionary:
+    print(thing)
+
+To print all values:
+for key in programming_dictionary:
+    print(key)
+    print(programming_dictionary[key])
+
+Nesting:
+Value of string or number and be replaced by a list or another dictionary
+
 
  ## General tips:
 
