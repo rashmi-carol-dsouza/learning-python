@@ -321,6 +321,35 @@ class Keyword:
     def __init__ (self):
     #intialise attributes
 
+either
+
+class User:
+
+    def __init__(self, user_id, username):
+        self.id = user_id
+        self.username = username
+
+user_1 = User("001", "rashmi")
+print(user_1.username)
+
+OR
+
+class User:
+
+    def __init__(self):
+        pass
+
+user_2 = User()
+user_2.id = '002'
+user_2.username = "larry"
+
+print(user_2.username)
+
+# Method
+def follow(self,uer):
+    user.followers += 1
+    self.followers += 2
+
 ## Using other applications for learning
 
 Use replit for quick exercises
@@ -328,3 +357,4 @@ Use Thony to see how the interpreter evaluates the code
 Use draw.io for drawing flowcharts or you can install extension in vs code https://www.diagrams.net/blog/embed-diagrams-vscode
 for artwork - https://ascii.co.uk/art
 code style - https://www.python.org/dev/peps/pep-0008/ 
+turtle - https://docs.python.org/3/library/turtle.html
