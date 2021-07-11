@@ -281,6 +281,8 @@ When faced with errors - take entire error message and drop into google. Check r
 Look out for syntax highlighting to understand problems
 
 Install and use Thony for breakdown of how code is interpreted by python
+or use 
+http://www.pythontutor.com/visualize.html#mode=edit
 
 f-String – Use f and add other values inside curly braces 
 ex. Print(f“ Your age is {age}”)
@@ -297,10 +299,32 @@ ex instead of age = age + 3 use age +=3
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
 
+# title case
+names = names_string.title()
+
+## OOP
+
+# Class
+
+To create - class Keyword:
+
+To keep class empty without experiencing error 
+use pass
+
+Naming Convention - PascalCase - first letter of every word will be capitalized
+
+# Object
+keyword = keyword()
+
+# Constructor
+class Keyword:
+    def __init__ (self):
+    #intialise attributes
+
 ## Using other applications for learning
 
 Use replit for quick exercises
 Use Thony to see how the interpreter evaluates the code
 Use draw.io for drawing flowcharts or you can install extension in vs code https://www.diagrams.net/blog/embed-diagrams-vscode
 for artwork - https://ascii.co.uk/art
- 
+code style - https://www.python.org/dev/peps/pep-0008/ 
