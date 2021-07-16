@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "./day_20 & 21"
+        "./day_20 & 21",
+        "./day_22"
     ]
 }
