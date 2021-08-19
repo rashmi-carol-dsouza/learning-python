@@ -1,106 +1,112 @@
 This documents records all my learnings and references of python during the 100DaysOfCode challenge
 
-## Functions:
+# Functions:
 
 ## all functions @ https://docs.python.org/3/library/functions.html
 
-# print() 
+## print() 
 The print function outputs the content inputted into the paranthesis. The output is always a string value
 D'ont forget to add double quotes around the input
 
-# input() 
+## input() 
 To ask the user for an input
 ex. print('Your number is ' + input('What is your number?'
 ))
 
-# len() 
+## len() 
 Returns interger value of input i.e. output the no of characters of the input
 Only works with strings
 can be used to calculate no of inputs in a list
 
-# sum()
+## sum()
 returns sum 
 can be used to calculate sum of a list
 
-# min()
+## min()
 
-# max()
+## max()
 
-# type()
+## type()
 To check the type of data in the parantheses
 
-# round()
+## round()
 To round of numbers
 If you want to round of the specific decimal places – use ‘,(No of digits for preferred rounding) – ex. (10/3,3)
 
-# to round up
+## to round up
 import math
 a_r = math.ceil(a)
 
-# count()
+## count()
 sentence = 'Mary had a little lamb'
 sentence.count('a')
 
-# lower()
+## lower()
 s = "Kilometer"
 print(s.lower())
 
-## Types of Data
+## sorted(arg, reverse=)
+reverse is set to fall, for highest to lowest set it to True
 
-# String
+# Types of Data
+
+## String
 Text = String concatenation. Strings beings and ends with ' ' or " "
 
-# Integers (int)
+## Integers (int)
 Whole numbers
 
-#Floating Point Number(float)
+## Floating Point Number(float)
 Decimals
 
-#Boolean
+## Boolean
 Only two values i.e. True and False
 
-#  Comments
+##  Comments
 Python ignores statements that start with # - useful to write notes/reminders to yourself
 Use 'control + /' (Windows) - to comment out lines 
 To go back to original 'control + /' or 'control + z'
 
-# Variables 
+## Variables 
 Values can be stored in variables
 Assignment Statement ex. Rashmi = me
 Variables can also be used in expressions ex me + 1
 Ex - age = (input('What is your age?'))
 print (age)
 
-## Shortcuts:
+# Shortcuts:
 
 \n - to skip input to the next line
 Typecasting – convert types of data using str, int, etc and add data inside the paranthesis
 
 Subscripting = If you want to print the first letter of a string - ex . print(“Rashmi”[0])
 
-## Mathematical operators
+# Mathematical operators
 
-# +
+## +
 To add
 
-# -
+## -
 Subtraction
 
-# *
+## *
 Multiplication
 
-# /
+## /
 Division 
 Division always outputs as floating number
+
+## // 
+Floor Division
 If you want an integer use // instead of /
 
-# **
+## **
 Exponent / To raise a number to a certain power
 
-# %
+## %
 Modulo is used to get the remainder after divison of two numbers
 
-# Order of priority
+## Order of priority
 Parentheses
 Exponents
 Multiplication - Division
@@ -109,7 +115,7 @@ Addition – Subtraction
 
 To use mathematical operations on variables use = ex. /=, += , marks += 1
 
-# Comparison opertor
+## Comparison opertor
 
   > greater than
   >= greater than or equal to
@@ -118,16 +124,16 @@ To use mathematical operations on variables use = ex. /=, += , marks += 1
   == equal to
   != not equal to
 
-## Control Flow:
+# Control Flow:
 
-# if else
+## if else
 example:
 if age > 25:
    print('You can enter')
 else:
    print('Ypu cannot enter')
 
-# Nested if/else
+## Nested if/else
 example:
 if contition:
    if another contition:
@@ -137,7 +143,7 @@ if contition:
 else:
    do this
 
-# elif
+## elif
 If there are more than two conditions, you can use elif statement:
 example:
 if condition:
@@ -149,7 +155,7 @@ print(Last message)
 
 You can add as many elif's as you may need.
 
-# For loop
+## For loop
 example
 furniture = ['Sofa','Bed','Chair']
 for stuff in furniture:
@@ -167,7 +173,7 @@ for height in student_heights:
 
 resouce - https://developers.google.com/edu/python/lists#for-and-in
 
-# while loop
+## while loop
 
 while something_is_true:
    #do this
@@ -177,20 +183,20 @@ while something_is_true:
 loop will continue as long as underlying condition is true.
    
 
-## Logical Operators
+# Logical Operators
 
-# and
+## and
 both conditions have to be true for the entire line of code to be true
 
-# or
+## or
 for only one condition is required to be true
 
-# not
+## not
 revereses a condition
 
-## Modules
+# Modules
 
-# Random
+## Random
 
 python documentation - https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
 
@@ -207,7 +213,7 @@ to pick randomly from a list
 random.shuffle(list)
 to shuffle list items
 
-## Lists
+# Lists
 
 Always start with [ and close with ] and items are seperated with a comma
 ex age = [21,22,23]
@@ -226,7 +232,7 @@ more functions - https://docs.python.org/3/tutorial/datastructures.html
 
 A list can contain other lists within it
 
-## Dictionary
+# Dictionary
 
 example - 
 
@@ -272,7 +278,7 @@ Nesting:
 Value of string or number and be replaced by a list or another dictionary
 
 
- ## General tips:
+ # General tips:
 
 To concatonate strings add + between inputs
 
@@ -295,16 +301,16 @@ ex. float = 7.54651
 To add int to value
 ex instead of age = age + 3 use age +=3
 
-# Split strings
+## Split strings
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
 
-# title case
+## title case
 names = names_string.title()
 
-## OOP
+# OOP
 
-# Class
+## Class
 
 To create - class Keyword:
 
@@ -313,10 +319,10 @@ use pass
 
 Naming Convention - PascalCase - first letter of every word will be capitalized
 
-# Object
+## Object
 keyword = keyword()
 
-# Constructor
+## Constructor
 class Keyword:
     def __init__ (self):
     #intialise attributes
@@ -345,12 +351,12 @@ user_2.username = "larry"
 
 print(user_2.username)
 
-# Method
+## Method
 def follow(self,uer):
     user.followers += 1
     self.followers += 2
 
-## Using other applications for learning
+# Using other applications for learning
 
 Use replit for quick exercises
 Use Thony to see how the interpreter evaluates the code
